@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #222;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     font-size: 120%;
     padding: 5px;
@@ -35,6 +35,7 @@ img {
 
 nav ul {
     list-style-type: none;
+    color: #ffffff;
 }
 
 nav ul li {
@@ -71,15 +72,7 @@ footer {
     bottom: 0;
     height: auto;
 }
-table img {
-    max-width: 200px;
-    height: auto;
-    border: 1px solid #ddd;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
+
 
 .tableOfContents {
     background-color: white;
@@ -92,8 +85,8 @@ table {
 }
 
 #contact{
-    background-color: white;
-    color: black;
+    color: white;
+    font-size: 200%;
 }
 
 .infoform{
@@ -126,3 +119,27 @@ menu {
   padding: 100;
   width: 400px;
 }
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
